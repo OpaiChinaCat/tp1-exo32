@@ -12,7 +12,7 @@ basic.forever(function () {
         led.plotBrightness(x, y - 1, 150)
         led.plotBrightness(x, y - 2, 50)
         led.plotBrightness(x, y - 3, 0)
-        basic.pause(100)
+        basic.pause(50)
         y += 1
         led.plotBrightness(i, j, 250)
         led.plotBrightness(i, j - 1, 150)
